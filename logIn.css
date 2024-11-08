@@ -1,0 +1,102 @@
+#loginForm {
+    border: 1px solid gray; /* Gray border */
+    display: flex; /* Enable flexbox */
+    flex-direction: column; /* Arrange children in a column */
+    align-items: flex-start; /* Align items to the start (left) */
+    max-width: 400px; /* Optional: Set a max-width for the form */
+    margin: auto; /* Center the form horizontally */
+    padding: 20px; /* Add some padding */
+}
+
+#loginForm div {
+    display: flex; /* Enable flexbox for each input container */
+    align-items: center; /* Center items vertically */
+    margin-bottom: 10px; /* Space between fields */
+}
+
+#loginForm label {
+    margin-right: 10px; /* Space between label and input */
+    width: 120px; /* Fixed width for labels to keep alignment */
+    color: gray; /* Gray text for labels */
+}
+
+#loginForm input {
+    border: 1px solid gray; /* Gray border for inputs */
+    border-radius: 5px;
+    padding: 5px 10px; /* Adjusted padding */
+    flex-grow: 1; /* Allow input to grow and fill available space */
+    background-color: #f7f0f0; /* Light gray background for inputs */
+}
+
+.but {
+    margin-top: 20px;
+    width: 100%; /* Full width for buttons */
+    background-color: gray; /* Gray background for buttons */
+    color: white; /* White text color for buttons */
+}
+
+.but:hover {
+    background-color: darkgray; /* Darker gray on hover */
+}
+/* logIn.css */
+.buttonContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.header {
+    text-align: center; /* Center content */
+}
+
+.main {
+    display: flex;
+    justify-content: center; /* Center nav links */
+    background-color: #f5f5f5; /* Optional: Background color for the nav */
+    padding: 10px 0; /* Add some padding */
+}
+
+.nav-links {
+    display: flex; /* Display links inline */
+    gap: 20px; /* Space between links */
+}
+.main {
+    display: flex;
+    justify-content: center; /* Center nav links */
+    background-color: transparent; /* Remove white background */
+    padding: 10px 0; /* Add some padding */
+}
+
+.nav-links {
+    display: flex; /* Display links inline */
+    gap: 20px; /* Space between links */
+}
+
+.nav-links a {
+    text-decoration: none; /* Remove underline */
+    color: black; /* Link color */
+    font-weight: bold; /* Optional: Make links bold */
+    padding: 5px 10px; /* Optional: Add padding for better clickability */
+}
+
+.nav-links a:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Light gray background on hover for better visibility */
+}
+
+
+.nav-links a {
+    text-decoration: none; /* Remove underline */
+    color: black; /* Link color */
+    font-weight: bold; /* Optional: Make links bold */
+}
+
+#loginForm {
+    margin-top: 20px; /* Space above the form */
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-between; /* Space between buttons */
+    margin-top: 10px; /* Space above button container */
+}
+
+

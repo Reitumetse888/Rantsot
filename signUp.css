@@ -1,0 +1,51 @@
+/* Center the form container */
+form {
+    display: flex;
+    flex-direction: column; /* Arrange children vertically */
+    align-items: center; /* Center children horizontally */
+    max-width: 400px; /* Optional: Set a max-width for the form */
+    margin: auto; /* Center the form on the page */
+    padding: 20px; /* Optional: Add padding */
+    border: 1px solid gray; /* Optional: Add a border */
+    border-radius: 8px; /* Optional: Round the corners */
+}
+
+/* Center individual input containers */
+.one, .two2, .three, .four {
+    width: 100%; /* Full width */
+    margin-bottom: 10px; /* Space between fields */
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center items */
+}
+
+/* Center labels and inputs */
+label {
+    margin-right: 10px; /* Space between label and input */
+    width: 100px; /* Fixed width for labels */
+}
+
+/* Style for buttons */
+.btn1, .btn2 {
+    margin-top: 10px; /* Space above buttons */
+    width: 100%; /* Full width for buttons */
+    padding: 10px; /* Add padding */
+    cursor: pointer; /* Change cursor on hover */
+}
+
+.btn2 {
+    margin-left: 10px; /* Additional margin for the Home button */
+}
+/* Input styling */
+input {
+    border: 1px solid gray; /* Gray border for inputs */
+    border-radius: 4px; /* Optional: Round the corners of inputs */
+    padding: 8px; /* Add padding for better spacing */
+    width: calc(100% - 20px); /* Full width, accounting for padding */
+    box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+/* Optional: Add focus effect for better UX */
+input:focus {
+    border-color: darkgray; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
